@@ -3,7 +3,7 @@ import React from 'react'
 function Map() {
   return (
     <>
-       <div id='map-container' />
+   <div id='map-container' />
     </>
   )
 }
