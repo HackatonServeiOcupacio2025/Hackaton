@@ -1,6 +1,6 @@
                     import React from "react";
 
-                    function Card({ emoji, title, description, buttonText, route }) {
+                    function Card({ emoji, title, description, buttonText, route,}) {
                     return (
             <a
             href={route}
@@ -14,13 +14,14 @@
         style={{ backgroundColor: "#003957" }}
         className="text-white px-6 py-3 rounded hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300"
         >
+            
         {buttonText}
         </button>
             )}
             </a>
 
-
-                    );
+            
+);
                     }
 
                     export default Card;
